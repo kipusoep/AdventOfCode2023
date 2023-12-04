@@ -24,7 +24,7 @@ void Exercise1()
             var isEndOfLine = j + 1 == line.Length;
             if (!string.IsNullOrEmpty(currentNumber) && (!char.IsDigit(character) || isEndOfLine))
             {
-                if (isEndOfLine)
+                if (isEndOfLine && char.IsDigit(character))
                 {
                     j++;
                 }
@@ -67,4 +67,5 @@ void Exercise1()
 
 void Exercise2()
 {
+
 }
