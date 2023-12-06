@@ -31,7 +31,7 @@ while (true)
     seedMappings.Mappings.Add(mapping);
 }
 
-//Exercise1();
+Exercise1();
 
 Exercise2();
 
