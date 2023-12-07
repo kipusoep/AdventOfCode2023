@@ -7,6 +7,7 @@ Exercise1();
 Exercise2();
 
 return;
+
 void Exercise1()
 {
     var times = Regex.Matches(input[0][(input[0].IndexOf(":") + 1)..], @"\d+").Select(x => long.Parse(x.Groups[0].Value)).ToList();
